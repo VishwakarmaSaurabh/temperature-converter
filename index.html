@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css links -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Temperature converter</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/temp-icon.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Temperature converter</h1>
+    </header>
+    <main>
+      <label for="temp-input">Temperature</label><br />
+      <input
+        type="number"
+        placeholder="Enter temperature in celsius"
+        id="temp"
+        autofocus
+      />
+      <button class="btn" id="button">convert</button>
+      <h2 id="result">0</h2>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2020</p>
+    </footer>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
