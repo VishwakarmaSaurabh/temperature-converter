@@ -90,10 +90,22 @@ footer {
 @media only screen and (max-width: 600px) {
   body {
     width: 100%;
+    display: inline-block;
   }
 
   main {
     width: 90%;
-    margin: auto;
+    margin: 20px auto;
+    justify-content: space-evenly;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  footer p {
+    text-align: center;
   }
 }
