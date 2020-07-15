@@ -5,11 +5,13 @@ window.onload = function (event) {
 
   btn.addEventListener("click", () => {
     result.innerHTML = eval((9 / 5) * temp.value + 32);
+    temp.value = "";
   });
 
   document.addEventListener("keypress", (event) => {
     if (event.keyCode === 13) {
       result.innerHTML = eval((9 / 5) * temp.value + 32);
+      temp.value = "";
     }
   });
 };
